@@ -1,3 +1,5 @@
+//https://github.com/BohdanRyba/Lightbox_me
+
 'use strict';
 const fastbootTransform = require('fastboot-transform');
 
@@ -6,9 +8,9 @@ module.exports = {
     name: 'ember-lightbox-me',
     options: {
         nodeAssets: {
-            'lightbox_me': {
+            'lightbox-me': {
                 import: {
-                    include: ['jquery.lightbox_me.js'],
+                    include: ['jquery.lightbox_me.min.js'],
                     processTree(input) {
                         return fastbootTransform(input);
                     }
