@@ -6,6 +6,9 @@
   "repository": "https://github.com/BohdanRyba/Lightbox_me.git",
   "author": "asoft <web.dev.asoft@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "ember-addon"
+  ],
   "dependencies": {
     "fastboot-transform": "^0.1.3",
     "lightbox-me": "^1.0.0"
