@@ -1,6 +1,6 @@
 {
   "name": "ember-lightbox-me",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "this is lightbox_me addon to ember-cli-fastboot project",
   "main": "index.js",
   "repository": "https://github.com/BohdanRyba/Lightbox_me.git",
