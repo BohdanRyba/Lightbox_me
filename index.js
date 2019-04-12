@@ -6,9 +6,9 @@ module.exports = {
     name: 'ember-lightbox-me',
     options: {
         nodeAssets: {
-            'lightbox-me': {
+            'Lightbox_me': {
                 import: {
-                    include: ['jquery.lightbox-me.min.js'],
+                    include: ['jquery.lightbox_me.js'],
                     processTree(input) {
                         return fastbootTransform(input);
                     }
@@ -20,5 +20,4 @@ module.exports = {
     included(app, parentAddon) {
         this._super.included.apply(this, arguments);
     }
-
-};
+};  
