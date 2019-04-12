@@ -1,7 +1,5 @@
-//https://github.com/BohdanRyba/Lightbox_me
-
-'use strict';
 const fastbootTransform = require('fastboot-transform');
+
 
 
 module.exports = {
@@ -10,7 +8,7 @@ module.exports = {
         nodeAssets: {
             'lightbox-me': {
                 import: {
-                    include: ['jquery.lightbox_me.min.js'],
+                    include: ['jquery.lightbox-me.min.js'],
                     processTree(input) {
                         return fastbootTransform(input);
                     }
